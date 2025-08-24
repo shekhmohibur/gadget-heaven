@@ -1,46 +1,49 @@
-import { Link } from "react-router";
-
+import { Link, NavLink, useLocation } from "react-router";
+import { CiHeart } from "react-icons/ci";
+import { IoCartOutline } from "react-icons/io5";
 const Navbar = () => {
+    const { link1, link2, link3, link4 } = {
+        link1: 'Home',
+        link2: 'Statistics',
+        link3: 'Dashboard',
+        link4: 'New Arrival'
+    }
+    const location = useLocation();
     return (
-        <div className="navbar bg-base-100 shadow-sm">
-            <div className="navbar-start">
-                <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+        <div className={`${location.pathname === '/' ? 'bg-[#9538E2]': ''} mt-7 mx-7 rounded-tr-2xl rounded-tl-2xl`}>
+            <div className="navbar shadow-sm container mx-auto py-5">
+                <div className="navbar-start">
+                    <div className="dropdown">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 ${location.pathname === '/' ? 'text-white': 'text-[#9538E2]'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                        </div>
+                        <ul
+                            tabIndex={0}
+                            className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow ${location.pathname === '/' ? 'text-black': 'text-black'}`}>
+                            <NavLink className="text-base" to={'/'}>{link1}</NavLink>
+                            <NavLink className="text-base" to={'/statistics'}>{link2}</NavLink>
+                            <NavLink className="text-base" to={'/dashboard'}>{link3}</NavLink>
+                            <NavLink className="text-base" to={'/newArrival'}>{link4}</NavLink>
+                        </ul>
                     </div>
-                    <ul
-                        tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                    <Link to={'/'} className={`btn btn-ghost md:text-xl capitalize ${location.pathname === '/' ? 'text-white': 'text-[#9538E2]'}`}>Gadget Heaven</Link>
+                </div>
+                <div className="navbar-center hidden lg:flex">
+                    <ul className={`menu menu-horizontal px-1 gap-3 ${location.pathname === '/' ? 'text-white': 'text-black'}`}>
+                        <NavLink className={`text-base ${location.pathname === '/' ? 'homeSpecial' :''}`} to={'/'}>{link1}</NavLink>
+                        <NavLink className="text-base" to={'/statistics'}>{link2}</NavLink>
+                        <NavLink className="text-base" to={'/dashboard'}>{link3}</NavLink>
+                        <NavLink className="text-base" to={'/newArrival'}>{link4}</NavLink>
                     </ul>
                 </div>
-                <Link to={'/'} className="btn btn-ghost text-xl">Gadget Heaven</Link>
-            </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
-                </ul>
-            </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+                <div className="navbar-end gap-3">
+                    <button className="p-3 rounded-full text-xl bg-white text-purple-600 relative"><IoCartOutline />
+                        <span className={`w-7 h-7 flex  justify-center items-center absolute text-purple-600 rounded-full p-1 ${location.pathname === '/' ? 'bg-white -top-3 -right-3': '-top-2 -right-1'}`}></span>
+                    </button>
+                    <button className="p-3 rounded-full text-xl bg-white text-purple-600 relative"><CiHeart className="stroke-1" />
+                        <span className={`w-7 h-7 flex  justify-center items-center absolute text-purple-600 rounded-full p-1 ${location.pathname === '/' ? 'bg-white -top-3 -right-3': '-top-2 -right-1'}`}></span>
+                    </button>
+                </div>
             </div>
         </div>
     );

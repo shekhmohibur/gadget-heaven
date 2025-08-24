@@ -7,11 +7,17 @@ import {
 } from "react-router-dom";
 import Root  from './Components/Root/Root';
 import Home from './Components/Home/Home';
+import Error from './Components/ErrorPage/Error';
 import Navbar from './Components/NavBar/Navbar';
+import Newarrival from './Components/NewArrival/Newarrival';
+import Statistics from './Components/Statistics/Statistics';
+import Dashboard from './Components/Dashboard/Dashboard';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<Error></Error>,
+    loader:() => fetch('./gadgets.json'),
     children:[
       {
         path:'/',
@@ -20,6 +26,18 @@ const router = createBrowserRouter([
       {
         path:'navbar',
         element:<Navbar></Navbar>
+      },
+      {
+        path:'statistics',
+        element:<Statistics></Statistics>
+      },
+      {
+        path:'dashboard',
+        element:<Dashboard></Dashboard>
+      },
+      {
+        path:'newArrival',
+        element:<Newarrival></Newarrival>
       }
     ]
   },

@@ -1,355 +1,439 @@
-[
-  {
-    "product_id": "P001",
-    "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://images.pexels.com/photos/18762796/pexels-photo-18762796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Smartphones",
-    "price": 1299,
-    "description": "Experience the pinnacle of smartphone innovation with the iPhone 15 Pro Max. Featuring a titanium design, advanced A17 Bionic chip, and a triple-lens Pro camera system with LiDAR scanner, it delivers professional-grade performance and photography. With up to 2TB of storage and a 6.7-inch Super Retina XDR display, this device redefines power, beauty, and capability.",
-    "specification": [
-      "6.7-inch Super Retina XDR display",
-      "A17 Bionic chip",
-      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
-      "LiDAR Scanner",
-      "Up to 2TB storage"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": "P002",
-    "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Smartphones",
-    "price": 1149,
-    "description": "The Samsung Galaxy S23 Ultra is engineered for those who crave power and precision. It boasts a 6.8-inch Dynamic AMOLED display with 120Hz refresh rate, Snapdragon 8 Gen 2 processor, and a versatile quad-camera setup with 200MP main sensor for crystal-clear photos even in low light.",
-    "specification": [
-      "6.8-inch Dynamic AMOLED 2X display",
-      "Snapdragon 8 Gen 2",
-      "Quad-camera system (200MP Main, 12MP Ultra-wide, 10MP Telephoto)",
-      "5000mAh battery"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "P003",
-    "product_title": "Google Pixel 8 Pro",
-    "product_image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "category": "Smartphones",
-    "price": 899,
-    "description": "Google Pixel 8 Pro brings stock Android experience and powerful AI-driven camera features. Its Tensor G3 chip optimizes performance and battery efficiency. The 6.7-inch LTPO OLED display adapts refresh rate intelligently for smooth visuals and extended battery life.",
-    "specification": [
-      "6.7-inch LTPO OLED display",
-      "Google Tensor G3 chip",
-      "Triple-camera system with advanced AI",
-      "5G connectivity"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": "P004",
-    "product_title": "OnePlus 11",
-    "product_image": "https://images.pxhere.com/photos/bd/dc/technology_mobile_phone_smartphone_oneplus-1709391.jpg!d",
-    "category": "Smartphones",
-    "price": 799,
-    "description": "OnePlus 11 combines flagship performance with a smooth 120Hz AMOLED display. Powered by the Snapdragon 8 Gen 2, it offers fast charging and an excellent Hasselblad-tuned camera system to capture stunning photos and videos.",
-    "specification": [
-      "6.7-inch AMOLED display",
-      "Snapdragon 8 Gen 2",
-      "Hasselblad camera system",
-      "100W fast charging"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": "P005",
-    "product_title": "Sony Xperia 1 V",
-    "product_image": "https://images.pxhere.com/photos/26/5e/sony_xperia_smartphone_technology-2095943.jpg!d",
-    "category": "Smartphones",
-    "price": 999,
-    "description": "Sony Xperia 1 V is built for multimedia enthusiasts with a 4K OLED display, professional-grade camera controls, and Snapdragon 8 Gen 2 processor. It delivers an immersive viewing and listening experience.",
-    "specification": [
-      "6.5-inch 4K OLED display",
-      "Snapdragon 8 Gen 2",
-      "Triple-camera with real-time Eye autofocus",
-      "Dolby Atmos sound"
-    ],
-    "availability": true,
-    "rating": 4.4
-  },
-  {
-    "product_id": "P006",
-    "product_title": "Motorola Edge 40",
-    "product_image": "https://images.pxhere.com/photos/b7/91/mobile_phone-1365047.jpg!d",
-    "category": "Smartphones",
-    "price": 699,
-    "description": "Motorola Edge 40 offers an excellent balance between performance and price with a 6.5-inch OLED screen, Snapdragon 7 Gen 1 processor, and 144Hz refresh rate for smooth scrolling and gaming.",
-    "specification": [
-      "6.5-inch OLED display",
-      "Snapdragon 7 Gen 1",
-      "144Hz refresh rate",
-      "50MP dual camera"
-    ],
-    "availability": true,
-    "rating": 4.3
-  },
-  {
-    "product_id": "SW001",
-    "product_title": "Apple Watch Series 9",
-    "product_image": "https://images.pexels.com/photos/276033/pexels-photo-276033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Smartwatches",
-    "price": 399,
-    "description": "Apple Watch Series 9 features a brighter display, faster S9 SiP chip, and advanced health sensors including blood oxygen and ECG. It offers seamless integration with iOS and a wide range of fitness tracking features.",
-    "specification": [
-      "Always-on Retina display",
-      "S9 SiP chip",
-      "ECG and blood oxygen sensors",
-      "Swimproof design"
-    ],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "SW002",
-    "product_title": "Samsung Galaxy Watch 6",
-    "product_image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Smartwatches",
-    "price": 349,
-    "description": "The Samsung Galaxy Watch 6 offers a vibrant Super AMOLED display, advanced health monitoring including heart rate and sleep tracking, and an intuitive rotating bezel for navigation.",
-    "specification": [
-      "Super AMOLED display",
-      "Heart rate and sleep tracking",
-      "Rotating bezel navigation",
-      "Up to 40 hours battery life"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "SW003",
-    "product_title": "Garmin Fenix 7",
-    "product_image": "https://images.pexels.com/photos/275211/pexels-photo-275211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Smartwatches",
-    "price": 699,
-    "description": "Garmin Fenix 7 is designed for outdoor adventurers with GPS, heart rate monitoring, pulse oximeter, and multi-sport modes. It also boasts a rugged design and long battery life.",
-    "specification": [
-      "GPS and GLONASS",
-      "Heart rate and pulse oximeter",
-      "Multi-sport tracking",
-      "Up to 14 days battery life"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": "SW004",
-    "product_title": "Fitbit Versa 4",
-    "product_image": "https://images.pexels.com/photos/277589/pexels-photo-277589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Smartwatches",
-    "price": 199,
-    "description": "Fitbit Versa 4 provides reliable fitness tracking with heart rate, sleep, and activity monitoring. It offers smartphone notifications and up to 6 days of battery life in a lightweight design.",
-    "specification": [
-      "Heart rate and sleep tracking",
-      "Smartphone notifications",
-      "Up to 6 days battery life",
-      "Lightweight design"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": "E001",
-    "product_title": "Sony WF-1000XM4",
-    "product_image": "https://images.pxhere.com/photos/51/ea/earbuds_wireless_audio_device_technology_music-1738016.jpg!d",
-    "category": "Earbuds",
-    "price": 279,
-    "description": "Sony WF-1000XM4 are industry-leading true wireless earbuds with exceptional noise cancellation, rich sound, and up to 8 hours of playback time. Designed for comfort and superior sound clarity.",
-    "specification": [
-      "Noise cancellation",
-      "8 hours playback",
-      "Wireless charging",
-      "IPX4 water resistance"
-    ],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "E002",
-    "product_title": "Apple AirPods Pro 2",
-    "product_image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Earbuds",
-    "price": 249,
-    "description": "AirPods Pro 2 offers active noise cancellation, spatial audio, and seamless integration with Apple devices. With improved battery life and a compact charging case, they’re perfect for everyday use.",
-    "specification": [
-      "Active noise cancellation",
-      "Spatial audio",
-      "Wireless charging case",
-      "Up to 6 hours playback"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": "E003",
-    "product_title": "Bose QuietComfort Earbuds",
-    "product_image": "https://images.pexels.com/photos/271713/pexels-photo-271713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Earbuds",
-    "price": 279,
-    "description": "Bose QuietComfort Earbuds feature world-class noise cancellation, crystal clear sound, and a comfortable fit. Ideal for immersive listening and calls.",
-    "specification": [
-      "Noise cancellation",
-      "High-fidelity sound",
-      "IPX4 water resistance",
-      "6 hours battery life"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "E004",
-    "product_title": "Jabra Elite 7 Pro",
-    "product_image": "https://images.pxhere.com/photos/51/ea/earbuds_wireless_audio_device_technology_music-1738016.jpg!d",
-    "category": "Earbuds",
-    "price": 199,
-    "description": "Jabra Elite 7 Pro combines excellent sound quality, multi-device connectivity, and strong call quality. Designed for active lifestyles with water and dust resistance.",
-    "specification": [
-      "Multi-device connectivity",
-      "Water and dust resistant",
-      "6 hours battery life",
-      "Customizable sound"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": "T001",
-    "product_title": "Apple iPad Pro 12.9\"",
-    "product_image": "https://images.pexels.com/photos/5082570/pexels-photo-5082570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "category": "Tablets",
-    "price": 1099,
-    "description": "Apple iPad Pro 12.9-inch features the powerful M2 chip, Liquid Retina XDR display for stunning visuals, and supports Apple Pencil 2 for creative professionals and productivity.",
-    "specification": [
-      "12.9-inch Liquid Retina XDR",
-      "Apple M2 chip",
-      "Supports Apple Pencil 2",
-      "Up to 2TB storage"
-    ],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "T002",
-    "product_title": "Samsung Galaxy Tab S8 Ultra",
-    "product_image": "https://images.pexels.com/photos/5082570/pexels-photo-5082570.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "category": "Tablets",
-    "price": 899,
-    "description": "Samsung Galaxy Tab S8 Ultra delivers an expansive 14.6-inch AMOLED display, Snapdragon 8 Gen 1 chipset, and S Pen support for work and play.",
-    "specification": [
-      "14.6-inch AMOLED display",
-      "Snapdragon 8 Gen 1",
-      "S Pen included",
-      "Up to 512GB storage"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "T003",
-    "product_title": "Microsoft Surface Pro 9",
-    "product_image": "https://images.pxhere.com/photos/ae/41/technology_surface_tablet-1211834.jpg!d",
-    "category": "Tablets",
-    "price": 999,
-    "description": "Microsoft Surface Pro 9 combines laptop power with tablet portability. Featuring Intel 12th Gen processors, PixelSense Flow display, and detachable keyboard for versatile use.",
-    "specification": [
-      "13-inch PixelSense Flow display",
-      "Intel 12th Gen processors",
-      "Detachable keyboard",
-      "Up to 1TB storage"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": "T004",
-    "product_title": "Lenovo Tab P12 Pro",
-    "product_image": "https://images.pxhere.com/photos/c8/0d/technology_tablet-lenovo-5059321.jpg!d",
-    "category": "Tablets",
-    "price": 699,
-    "description": "Lenovo Tab P12 Pro offers a 12.6-inch AMOLED display with Dolby Vision, Snapdragon 870 processor, and quad speakers tuned by JBL for immersive entertainment.",
-    "specification": [
-      "12.6-inch AMOLED display",
-      "Snapdragon 870",
-      "JBL quad speakers",
-      "Dolby Vision"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": "PC001",
-    "product_title": "Anker PowerCore 26800mAh",
-    "product_image": "https://images.pxhere.com/photos/54/2b/power_bank_smartphone_charger_electronics-1613568.jpg!d",
-    "category": "Portable Chargers",
-    "price": 89,
-    "description": "Anker PowerCore 26800mAh delivers high-speed charging with three USB ports, capable of charging multiple devices simultaneously. Compact and lightweight for travel convenience.",
-    "specification": [
-      "26800mAh capacity",
-      "3 USB ports",
-      "Fast charging support",
-      "Compact design"
-    ],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": "PC002",
-    "product_title": "RAVPower 20000mAh Portable Charger",
-    "product_image": "https://images.pxhere.com/photos/5a/9e/portable_charger_power_bank-1624352.jpg!d",
-    "category": "Portable Chargers",
-    "price": 69,
-    "description": "RAVPower 20000mAh portable charger offers a slim design with USB-C and USB-A ports. Supports fast charging for smartphones and tablets on the go.",
-    "specification": [
-      "20000mAh capacity",
-      "USB-C and USB-A ports",
-      "Fast charging",
-      "Slim and lightweight"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": "PC003",
-    "product_title": "AUKEY 30000mAh Power Bank",
-    "product_image": "https://images.pxhere.com/photos/93/5a/power_bank-1103571.jpg!d",
-    "category": "Portable Chargers",
-    "price": 99,
-    "description": "AUKEY 30000mAh power bank provides massive capacity for multiple charges, dual USB output, and Quick Charge 3.0 compatibility, perfect for heavy users.",
-    "specification": [
-      "30000mAh capacity",
-      "Dual USB output",
-      "Quick Charge 3.0",
-      "LED battery indicator"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "PC004",
-    "product_title": "Zendure SuperMini 10000mAh",
-    "product_image": "https://images.pxhere.com/photos/5f/6e/power_bank-1372980.jpg!d",
-    "category": "Portable Chargers",
-    "price": 59,
-    "description": "Zendure SuperMini is a pocket-sized 10000mAh power bank with USB-C PD fast charging, ideal for quick top-ups on smartphones and tablets while on the move.",
-    "specification": [
-      "10000mAh capacity",
-      "USB-C PD fast charging",
-      "Compact and lightweight",
-      "Durable build"
-    ],
-    "availability": true,
-    "rating": 4.5
-  }
-]
+{
+  "products": [
+    {
+      "product_id": "P001",
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://images.pexels.com/photos/19747856/pexels-photo-19747856.jpeg",
+      "category": "Smartphones",
+      "price": 1299,
+      "description": "Experience the pinnacle of smartphone innovation with the iPhone 15 Pro Max. Featuring a titanium design, advanced A17 Bionic chip, and a triple-lens Pro camera system with LiDAR scanner, it delivers professional-grade performance and photography. With up to 2TB of storage and a 6.7-inch Super Retina XDR display, this device redefines power, beauty, and capability.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://images.pexels.com/photos/15493878/pexels-photo-15493878.jpeg",
+      "category": "Smartphones",
+      "price": 1149,
+      "description": "The Samsung Galaxy S23 Ultra is engineered for those who crave power and precision. It boasts a 6.8-inch Dynamic AMOLED display with 120Hz refresh rate, Snapdragon 8 Gen 2 processor, and a versatile quad-camera setup with 200MP main sensor for crystal-clear photos even in low light.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X display",
+        "Snapdragon 8 Gen 2",
+        "Quad-camera system (200MP Main, 12MP Ultra-wide, 10MP Telephoto)",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://images.pexels.com/photos/14165312/pexels-photo-14165312.jpeg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "Google Pixel 8 Pro brings stock Android experience and powerful AI-driven camera features. Its Tensor G3 chip optimizes performance and battery efficiency. The 6.7-inch LTPO OLED display adapts refresh rate intelligently for smooth visuals and extended battery life.",
+      "specification": [
+        "6.7-inch LTPO OLED display",
+        "Google Tensor G3 chip",
+        "Triple-camera system with advanced AI",
+        "5G connectivity"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P004",
+      "product_title": "OnePlus 11",
+      "product_image": "https://images.pexels.com/photos/19013521/pexels-photo-19013521.jpeg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "OnePlus 11 combines flagship performance with a smooth 120Hz AMOLED display. Powered by the Snapdragon 8 Gen 2, it offers fast charging and an excellent Hasselblad-tuned camera system to capture stunning photos and videos.",
+      "specification": [
+        "6.7-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "Hasselblad camera system",
+        "100W fast charging"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Sony Xperia 1 V",
+      "product_image": "https://images.pexels.com/photos/19636141/pexels-photo-19636141.jpeg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Sony Xperia 1 V is built for multimedia enthusiasts with a 4K OLED display, professional-grade camera controls, and Snapdragon 8 Gen 2 processor. It delivers an immersive viewing and listening experience.",
+      "specification": [
+        "6.5-inch 4K OLED display",
+        "Snapdragon 8 Gen 2",
+        "Triple-camera with real-time Eye autofocus",
+        "Dolby Atmos sound"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Motorola Edge 40",
+      "product_image": "https://images.pexels.com/photos/1365047/pexels-photo-1365047.jpeg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "Motorola Edge 40 offers an excellent balance between performance and price with a 6.5-inch OLED screen, Snapdragon 7 Gen 1 processor, and 144Hz refresh rate for smooth scrolling and gaming.",
+      "specification": [
+        "6.5-inch OLED display",
+        "Snapdragon 7 Gen 1",
+        "144Hz refresh rate",
+        "50MP dual camera"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "SW001",
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://images.pexels.com/photos/276033/pexels-photo-276033.jpeg",
+      "category": "Smartwatches",
+      "price": 399,
+      "description": "Apple Watch Series 9 features a brighter display, faster S9 SiP chip, and advanced health sensors including blood oxygen and ECG. It offers seamless integration with iOS and a wide range of fitness tracking features.",
+      "specification": [
+        "Always-on Retina display",
+        "S9 SiP chip",
+        "ECG and blood oxygen sensors",
+        "Swimproof design"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "SW002",
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+      "category": "Smartwatches",
+      "price": 349,
+      "description": "The Samsung Galaxy Watch 6 offers a vibrant Super AMOLED display, advanced health monitoring including heart rate and sleep tracking, and an intuitive rotating bezel for navigation.",
+      "specification": [
+        "Super AMOLED display",
+        "Heart rate and sleep tracking",
+        "Rotating bezel navigation",
+        "Up to 40 hours battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "SW003",
+      "product_title": "Garmin Fenix 7",
+      "product_image": "https://images.pexels.com/photos/275211/pexels-photo-275211.jpeg",
+      "category": "Smartwatches",
+      "price": 699,
+      "description": "Garmin Fenix 7 is designed for outdoor adventurers with GPS, heart rate monitoring, pulse oximeter, and multi-sport modes. It also boasts a rugged design and long battery life.",
+      "specification": [
+        "GPS and GLONASS",
+        "Heart rate and pulse oximeter",
+        "Multi-sport tracking",
+        "Up to 14 days battery life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SW004",
+      "product_title": "Fitbit Versa 4",
+      "product_image": "https://images.pexels.com/photos/277589/pexels-photo-277589.jpeg",
+      "category": "Smartwatches",
+      "price": 199,
+      "description": "Fitbit Versa 4 provides reliable fitness tracking with heart rate, sleep, and activity monitoring. It offers smartphone notifications and up to 6 days of battery life in a lightweight design.",
+      "specification": [
+        "Heart rate and sleep tracking",
+        "Smartphone notifications",
+        "Up to 6 days battery life",
+        "Lightweight design"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "E001",
+      "product_title": "Sony WF-1000XM4",
+      "product_image": "https://images.pexels.com/photos/1738016/pexels-photo-1738016.jpeg",
+      "category": "Earbuds",
+      "price": 279,
+      "description": "Sony WF-1000XM4 are industry-leading true wireless earbuds with exceptional noise cancellation, rich sound, and up to 8 hours of playback time. Designed for comfort and superior sound clarity.",
+      "specification": [
+        "Noise cancellation",
+        "8 hours playback",
+        "Wireless charging",
+        "IPX4 water resistance"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "E002",
+      "product_title": "Apple AirPods Pro 2",
+      "product_image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg",
+      "category": "Earbuds",
+      "price": 249,
+      "description": "AirPods Pro 2 offers active noise cancellation, spatial audio, and seamless integration with Apple devices. With improved battery life and a compact charging case, they’re perfect for everyday use.",
+      "specification": [
+        "Active noise cancellation",
+        "Spatial audio",
+        "Wireless charging case",
+        "Up to 6 hours playback"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E003",
+      "product_title": "Bose QuietComfort Earbuds",
+      "product_image": "https://images.pexels.com/photos/271713/pexels-photo-271713.jpeg",
+      "category": "Earbuds",
+      "price": 279,
+      "description": "Bose QuietComfort Earbuds feature world-class noise cancellation, crystal clear sound, and a comfortable fit. Ideal for immersive listening and calls.",
+      "specification": [
+        "Noise cancellation",
+        "High-fidelity sound",
+        "IPX4 water resistance",
+        "6 hours battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E004",
+      "product_title": "Jabra Elite 7 Pro",
+      "product_image": "https://images.pexels.com/photos/1738016/pexels-photo-1738016.jpeg",
+      "category": "Earbuds",
+      "price": 199,
+      "description": "Jabra Elite 7 Pro combines excellent sound quality, multi-device connectivity, and strong call quality. Designed for active lifestyles with water and dust resistance.",
+      "specification": [
+        "Multi-device connectivity",
+        "Water and dust resistant",
+        "6 hours battery life",
+        "Customizable sound"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "T001",
+      "product_title": "Apple iPad Pro 12.9\"",
+      "product_image": "https://images.pexels.com/photos/5082570/pexels-photo-5082570.jpeg",
+      "category": "Tablets",
+      "price": 1099,
+      "description": "Apple iPad Pro 12.9-inch features the powerful M2 chip, Liquid Retina XDR display for stunning visuals, and supports Apple Pencil 2 for creative professionals and productivity.",
+      "specification": [
+        "12.9-inch Liquid Retina XDR",
+        "Apple M2 chip",
+        "Supports Apple Pencil 2",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "T002",
+      "product_title": "Samsung Galaxy Tab S8 Ultra",
+      "product_image": "https://images.pexels.com/photos/5082570/pexels-photo-5082570.jpeg",
+      "category": "Tablets",
+      "price": 899,
+      "description": "Samsung Galaxy Tab S8 Ultra delivers an expansive 14.6-inch AMOLED display, Snapdragon 8 Gen 1 chipset, and S Pen support for work and play.",
+      "specification": [
+        "14.6-inch AMOLED display",
+        "Snapdragon 8 Gen 1",
+        "S Pen included",
+        "Up to 512GB storage"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "T003",
+      "product_title": "Microsoft Surface Pro 9",
+      "product_image": "https://images.pexels.com/photos/1211834/pexels-photo-1211834.jpeg",
+      "category": "Tablets",
+      "price": 999,
+      "description": "Microsoft Surface Pro 9 combines laptop power with tablet portability. Featuring Intel 12th Gen processors, PixelSense Flow display, and detachable keyboard for versatile use.",
+      "specification": [
+        "13-inch PixelSense Flow display",
+        "Intel 12th Gen processors",
+        "Detachable keyboard",
+        "Up to 1TB storage"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "T004",
+      "product_title": "Lenovo Tab P12 Pro",
+      "product_image": "https://images.pexels.com/photos/5059321/pexels-photo-5059321.jpeg",
+      "category": "Tablets",
+      "price": 699,
+      "description": "Lenovo Tab P12 Pro offers a 12.6-inch AMOLED display with Dolby Vision, Snapdragon 870 processor, and quad speakers tuned by JBL for immersive entertainment.",
+      "specification": [
+        "12.6-inch AMOLED display",
+        "Snapdragon 870",
+        "JBL quad speakers",
+        "Dolby Vision"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "PC001",
+      "product_title": "Anker PowerCore 26800mAh",
+      "product_image": "https://images.pexels.com/photos/1613568/pexels-photo-1613568.jpeg",
+      "category": "Portable Chargers",
+      "price": 89,
+      "description": "Anker PowerCore 26800mAh delivers high-speed charging with three USB ports, capable of charging multiple devices simultaneously. Compact and lightweight for travel convenience.",
+      "specification": [
+        "26800mAh capacity",
+        "3 USB ports",
+        "Fast charging support",
+        "Compact design"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "PC002",
+      "product_title": "RAVPower 20000mAh Portable Charger",
+      "product_image": "https://images.pexels.com/photos/1624352/pexels-photo-1624352.jpeg",
+      "category": "Portable Chargers",
+      "price": 69,
+      "description": "RAVPower 20000mAh portable charger offers a slim design with USB-C and USB-A ports. Supports fast charging for smartphones and tablets on the go.",
+      "specification": [
+        "20000mAh capacity",
+        "USB-C and USB-A ports",
+        "Fast charging",
+        "Slim and lightweight"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "PC003",
+      "product_title": "AUKEY 30000mAh Power Bank",
+      "product_image": "https://images.pexels.com/photos/1103571/pexels-photo-1103571.jpeg",
+      "category": "Portable Chargers",
+      "price": 99,
+      "description": "AUKEY 30000mAh power bank provides massive capacity for multiple charges, dual USB output, and Quick Charge 3.0 compatibility, perfect for heavy users.",
+      "specification": [
+        "30000mAh capacity",
+        "Dual USB output",
+        "Quick Charge 3.0",
+        "LED battery indicator"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "PC004",
+      "product_title": "Zendure SuperMini 10000mAh",
+      "product_image": "https://images.pexels.com/photos/1372980/pexels-photo-1372980.jpeg",
+      "category": "Portable Chargers",
+      "price": 59,
+      "description": "Zendure SuperMini is a pocket-sized 10000mAh power bank with USB-C PD fast charging, ideal for quick top-ups on smartphones and tablets while on the move.",
+      "specification": [
+        "10000mAh capacity",
+        "USB-C PD fast charging",
+        "Compact and lightweight",
+        "Durable build"
+      ],
+      "availability": true,
+      "rating": 4.5
+    }
+  ],
+  "newArrival": [
+    {
+      "product_id": "P007",
+      "product_title": "Asus ROG Phone 8 Pro",
+      "product_image": "https://images.pexels.com/photos/15923556/pexels-photo-15923556.jpeg",
+      "category": "Smartphones",
+      "price": 1099,
+      "description": "The Asus ROG Phone 8 Pro is built for serious mobile gamers. With a Snapdragon 8 Gen 3 chipset, 165Hz AMOLED display, and advanced cooling system, it's designed to handle intense performance demands with ease.",
+      "specification": [
+        "6.78-inch AMOLED 165Hz display",
+        "Snapdragon 8 Gen 3",
+        "6000mAh battery with 65W fast charging",
+        "GameCool 8 cooling system"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P008",
+      "product_title": "Nothing Phone (2)",
+      "product_image": "https://images.pexels.com/photos/18055872/pexels-photo-18055872.jpeg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "Nothing Phone (2) stands out with its transparent design and unique Glyph interface. Powered by Snapdragon 8+ Gen 1, it offers smooth performance and a distinct visual experience.",
+      "specification": [
+        "6.7-inch OLED display, 120Hz",
+        "Snapdragon 8+ Gen 1",
+        "50MP dual camera system",
+        "Glyph interface notifications"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "SW005",
+      "product_title": "Pixel Watch 2",
+      "product_image": "https://images.pexels.com/photos/16624654/pexels-photo-16624654.jpeg",
+      "category": "Smartwatches",
+      "price": 349,
+      "description": "Google Pixel Watch 2 features improved sensors for heart rate, skin temperature, and stress monitoring. It integrates seamlessly with Fitbit and Google services in a refined circular design.",
+      "specification": [
+        "AMOLED display with Gorilla Glass",
+        "Advanced health tracking",
+        "Built-in GPS and Assistant",
+        "Water resistant up to 5ATM"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "T005",
+      "product_title": "Xiaomi Pad 6 Pro",
+      "product_image": "https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg",
+      "category": "Tablets",
+      "price": 649,
+      "description": "The Xiaomi Pad 6 Pro is a powerful entertainment and productivity device with a Snapdragon 8+ Gen 1 chip, 144Hz display, and support for stylus input—perfect for creators and gamers.",
+      "specification": [
+        "11-inch 2.8K LCD display, 144Hz",
+        "Snapdragon 8+ Gen 1",
+        "Quad speakers with Dolby Atmos",
+        "Supports Xiaomi Smart Pen"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "E005",
+      "product_title": "Nothing Ear (a)",
+      "product_image": "https://images.pexels.com/photos/18055871/pexels-photo-18055871.jpeg",
+      "category": "Earbuds",
+      "price": 149,
+      "description": "Nothing Ear (a) brings active noise cancellation and bold transparent design at a mid-range price. With rich bass and clear highs, they deliver a balanced audio experience with style.",
+      "specification": [
+        "Active Noise Cancellation (ANC)",
+        "11mm dynamic drivers",
+        "Up to 6.3 hours playback",
+        "Bluetooth 5.3 with low latency"
+      ],
+      "availability": true,
+      "rating": 4.4
+    }
+  ]
+}
