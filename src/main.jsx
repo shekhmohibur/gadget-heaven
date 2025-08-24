@@ -12,6 +12,7 @@ import Navbar from './Components/NavBar/Navbar';
 import Newarrival from './Components/NewArrival/Newarrival';
 import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
+import ProductDetails from './Components/ProductDetails/ProductDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:'newArrival',
         element:<Newarrival></Newarrival>
+      },
+      {
+        path:'products/:category/:product_id',
+        element:<ProductDetails></ProductDetails>
       }
     ]
   },
