@@ -13,16 +13,17 @@ import Newarrival from './Components/NewArrival/Newarrival';
 import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
+import Products from './Components/Products/Products';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
     errorElement:<Error></Error>,
+    loader:() => fetch('/gadgets.json'),
     children:[
       {
         path:'/',
-        element:<Home></Home>,
-        loader:() => fetch('./gadgets.json'),
+        element:<Home></Home>
       },
       {
         path:'navbar',
@@ -42,7 +43,11 @@ const router = createBrowserRouter([
       },
       {
         path:'products/:category/:product_id',
-        element:<ProductDetails></ProductDetails>
+        element:<ProductDetails></ProductDetails>,
+      },
+      {
+        path:'products',
+        element:<Products></Products>
       }
     ]
   },

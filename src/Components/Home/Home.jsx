@@ -1,8 +1,6 @@
 import banner from '../../assets/images/banner.jpg'
 import Products from '../Products/Products';
-import { useLoaderData } from 'react-router';
 const Home = () => {
-    const allProducts = useLoaderData();
     return (
         <div>
             <div className="bg-[#9538E2] mx-7 rounded-br-xl rounded-bl-xl md:relative flex items-center flex-col md:pb-72">
@@ -19,9 +17,7 @@ const Home = () => {
                         <img src={banner} alt="Banner Image" className='rounded-2xl md:h-[564px] object-contain'/>
                     </div>
             </div>
-            <Products
-            allProducts={allProducts}
-            ></Products>
+            <Products></Products>
         </div>
     );
 };

@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Product from "../Product/Product";
-const Products = ({allProducts}) => {
-    const {products} = allProducts;
+import { apiData } from "../Root/Root";
+const Products = () => {
+    const {products} = useContext(apiData);
     const [activeBtn, setActiveBtn] = useState('All Products')
     const categories = [
         'All Products',

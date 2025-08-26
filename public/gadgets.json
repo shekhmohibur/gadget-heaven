@@ -30,7 +30,7 @@
         "Quad-camera system (200MP Main, 12MP Ultra-wide, 10MP Telephoto)",
         "5000mAh battery"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.7
     },
     {
@@ -46,7 +46,7 @@
         "Triple-camera system with advanced AI",
         "5G connectivity"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.6
     },
     {
@@ -110,7 +110,7 @@
         "Wireless charging case",
         "Up to 6 hours playback"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.8
     },
     {
@@ -224,7 +224,7 @@
         "50MP dual camera system",
         "Glyph interface notifications"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.5
     },
     {
