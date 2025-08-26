@@ -13,7 +13,7 @@ const Statistics = () => {
             <div className={`flex justify-between px-6 items-center py-8`}>
                 <h2 className="font-semibold">Statistics</h2>
             </div>
-            <div className='h-[450px] container mx-auto'>
+            <div className='h-[450px] container mx-auto bg-white p-4'>
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={products}>
                     <XAxis dataKey="rating" stroke="#9538E2" />
@@ -23,7 +23,7 @@ const Statistics = () => {
                     <Bar dataKey="price" fill="#9538E2" barSize={25} />
                 </BarChart>
                 </ResponsiveContainer>
-                <div className='flex justify-center gap-6'>
+                <div className='flex justify-center gap-6 bg-white pb-3'>
                         <div className='flex gap-2 items-center'>
                             <div className='w-4 h-4 bg-[#9538E2]'></div>
                             <p>Price</p>
