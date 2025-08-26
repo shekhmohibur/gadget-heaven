@@ -45,14 +45,14 @@ const ProductDetails = () => {
                                         <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
                                     <span className="block bg-gray-300 py-1 px-2 rounded-xl">{rating}</span>
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                             <div className="card-actions mt-4 items-center">
                                 <button className="btn bg-purple-600 text-white capitalize rounded-3xl hover:text-purple-600">Add To Cart <IoCartOutline className="text-2xl" /></button>
                                 <button className="p-2 bg-white border-2 border-gray-300 rounded-full text-3xl"><CiHeart /></button>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>

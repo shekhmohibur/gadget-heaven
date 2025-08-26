@@ -11,7 +11,7 @@ const Navbar = () => {
     const location = useLocation();
     return (
         <>
-        <div className="md:py-3"></div>
+        <div className={`${location.pathname === '/' ? 'py-3' : ''}`}></div>
         <div className={`${location.pathname === '/' ? 'bg-[#9538E2]': 'bg-gray-50'} mx-7 rounded-tr-2xl rounded-tl-2xl`}>
             <div className="navbar container mx-auto py-5">
                 <div className="navbar-start">
