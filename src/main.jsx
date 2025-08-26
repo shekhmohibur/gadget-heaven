@@ -18,11 +18,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root></Root>,
     errorElement:<Error></Error>,
-    loader:() => fetch('./gadgets.json'),
     children:[
       {
         path:'/',
-        element:<Home></Home>
+        element:<Home></Home>,
+        loader:() => fetch('./gadgets.json'),
       },
       {
         path:'navbar',

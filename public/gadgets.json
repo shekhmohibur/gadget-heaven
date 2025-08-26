@@ -66,86 +66,6 @@
       "rating": 4.5
     },
     {
-      "product_id": "P005",
-      "product_title": "Sony Xperia 1 V",
-      "product_image": "https://images.pexels.com/photos/19636141/pexels-photo-19636141.jpeg",
-      "category": "Smartphones",
-      "price": 999,
-      "description": "Sony Xperia 1 V is built for multimedia enthusiasts with a 4K OLED display, professional-grade camera controls, and Snapdragon 8 Gen 2 processor. It delivers an immersive viewing and listening experience.",
-      "specification": [
-        "6.5-inch 4K OLED display",
-        "Snapdragon 8 Gen 2",
-        "Triple-camera with real-time Eye autofocus",
-        "Dolby Atmos sound"
-      ],
-      "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": "P006",
-      "product_title": "Motorola Edge 40",
-      "product_image": "https://images.pexels.com/photos/1365047/pexels-photo-1365047.jpeg",
-      "category": "Smartphones",
-      "price": 699,
-      "description": "Motorola Edge 40 offers an excellent balance between performance and price with a 6.5-inch OLED screen, Snapdragon 7 Gen 1 processor, and 144Hz refresh rate for smooth scrolling and gaming.",
-      "specification": [
-        "6.5-inch OLED display",
-        "Snapdragon 7 Gen 1",
-        "144Hz refresh rate",
-        "50MP dual camera"
-      ],
-      "availability": true,
-      "rating": 4.3
-    },
-    {
-      "product_id": "SW001",
-      "product_title": "Apple Watch Series 9",
-      "product_image": "https://images.pexels.com/photos/276033/pexels-photo-276033.jpeg",
-      "category": "Smartwatches",
-      "price": 399,
-      "description": "Apple Watch Series 9 features a brighter display, faster S9 SiP chip, and advanced health sensors including blood oxygen and ECG. It offers seamless integration with iOS and a wide range of fitness tracking features.",
-      "specification": [
-        "Always-on Retina display",
-        "S9 SiP chip",
-        "ECG and blood oxygen sensors",
-        "Swimproof design"
-      ],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "product_id": "SW002",
-      "product_title": "Samsung Galaxy Watch 6",
-      "product_image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
-      "category": "Smartwatches",
-      "price": 349,
-      "description": "The Samsung Galaxy Watch 6 offers a vibrant Super AMOLED display, advanced health monitoring including heart rate and sleep tracking, and an intuitive rotating bezel for navigation.",
-      "specification": [
-        "Super AMOLED display",
-        "Heart rate and sleep tracking",
-        "Rotating bezel navigation",
-        "Up to 40 hours battery life"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "SW003",
-      "product_title": "Garmin Fenix 7",
-      "product_image": "https://images.pexels.com/photos/275211/pexels-photo-275211.jpeg",
-      "category": "Smartwatches",
-      "price": 699,
-      "description": "Garmin Fenix 7 is designed for outdoor adventurers with GPS, heart rate monitoring, pulse oximeter, and multi-sport modes. It also boasts a rugged design and long battery life.",
-      "specification": [
-        "GPS and GLONASS",
-        "Heart rate and pulse oximeter",
-        "Multi-sport tracking",
-        "Up to 14 days battery life"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
       "product_id": "SW004",
       "product_title": "Fitbit Versa 4",
       "product_image": "https://images.pexels.com/photos/277589/pexels-photo-277589.jpeg",
@@ -194,38 +114,6 @@
       "rating": 4.8
     },
     {
-      "product_id": "E003",
-      "product_title": "Bose QuietComfort Earbuds",
-      "product_image": "https://images.pexels.com/photos/271713/pexels-photo-271713.jpeg",
-      "category": "Earbuds",
-      "price": 279,
-      "description": "Bose QuietComfort Earbuds feature world-class noise cancellation, crystal clear sound, and a comfortable fit. Ideal for immersive listening and calls.",
-      "specification": [
-        "Noise cancellation",
-        "High-fidelity sound",
-        "IPX4 water resistance",
-        "6 hours battery life"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "E004",
-      "product_title": "Jabra Elite 7 Pro",
-      "product_image": "https://images.pexels.com/photos/1738016/pexels-photo-1738016.jpeg",
-      "category": "Earbuds",
-      "price": 199,
-      "description": "Jabra Elite 7 Pro combines excellent sound quality, multi-device connectivity, and strong call quality. Designed for active lifestyles with water and dust resistance.",
-      "specification": [
-        "Multi-device connectivity",
-        "Water and dust resistant",
-        "6 hours battery life",
-        "Customizable sound"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
       "product_id": "T001",
       "product_title": "Apple iPad Pro 12.9\"",
       "product_image": "https://images.pexels.com/photos/5082570/pexels-photo-5082570.jpeg",
@@ -256,22 +144,6 @@
       ],
       "availability": true,
       "rating": 4.7
-    },
-    {
-      "product_id": "T003",
-      "product_title": "Microsoft Surface Pro 9",
-      "product_image": "https://images.pexels.com/photos/1211834/pexels-photo-1211834.jpeg",
-      "category": "Tablets",
-      "price": 999,
-      "description": "Microsoft Surface Pro 9 combines laptop power with tablet portability. Featuring Intel 12th Gen processors, PixelSense Flow display, and detachable keyboard for versatile use.",
-      "specification": [
-        "13-inch PixelSense Flow display",
-        "Intel 12th Gen processors",
-        "Detachable keyboard",
-        "Up to 1TB storage"
-      ],
-      "availability": true,
-      "rating": 4.6
     },
     {
       "product_id": "T004",
@@ -320,38 +192,6 @@
       ],
       "availability": true,
       "rating": 4.6
-    },
-    {
-      "product_id": "PC003",
-      "product_title": "AUKEY 30000mAh Power Bank",
-      "product_image": "https://images.pexels.com/photos/1103571/pexels-photo-1103571.jpeg",
-      "category": "Portable Chargers",
-      "price": 99,
-      "description": "AUKEY 30000mAh power bank provides massive capacity for multiple charges, dual USB output, and Quick Charge 3.0 compatibility, perfect for heavy users.",
-      "specification": [
-        "30000mAh capacity",
-        "Dual USB output",
-        "Quick Charge 3.0",
-        "LED battery indicator"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "PC004",
-      "product_title": "Zendure SuperMini 10000mAh",
-      "product_image": "https://images.pexels.com/photos/1372980/pexels-photo-1372980.jpeg",
-      "category": "Portable Chargers",
-      "price": 59,
-      "description": "Zendure SuperMini is a pocket-sized 10000mAh power bank with USB-C PD fast charging, ideal for quick top-ups on smartphones and tablets while on the move.",
-      "specification": [
-        "10000mAh capacity",
-        "USB-C PD fast charging",
-        "Compact and lightweight",
-        "Durable build"
-      ],
-      "availability": true,
-      "rating": 4.5
     }
   ],
   "newArrival": [
