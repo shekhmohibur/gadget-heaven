@@ -6,8 +6,8 @@ import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
 const ProductDetails = () => {
     const { product_id } = useParams();
-    const { products } = useContext(apiData);
-    const aProduct = products?.find(product => product.product_id === product_id);
+    const { products = [], newArrival = [] } = useContext(apiData);
+    const aProduct = [...products, ...newArrival]?.find(product => product.product_id === product_id);
     const { product_image, product_title, price, category, availability, description, specification, rating} = aProduct;
     console.log(aProduct)
     return (
