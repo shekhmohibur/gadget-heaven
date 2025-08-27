@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { apiData } from "../Root/Root";
 import { Link } from "react-router";
 const Newarrival = () => {
-    const {newArrival} = useContext(apiData);
-    console.log(newArrival)
+    const {ApiData} = useContext(apiData);
+    const {newArrival} = ApiData;
     return (
         <div>
             <div className="bg-[#9538E2] py-10 flex flex-col items-center gap-5">

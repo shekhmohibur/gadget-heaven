@@ -7,7 +7,8 @@ import { CiHeart } from "react-icons/ci";
 import { addToLocalStorageCart, addToLocalStorageWishlist } from "../../utility/localstorage";
 const ProductDetails = () => {
     const { product_id } = useParams();
-    const { products = [], newArrival = [] } = useContext(apiData);
+    const { ApiData} = useContext(apiData);
+    const { products = [], newArrival = [] } = ApiData;
     const aProduct = [...products, ...newArrival]?.find(product => product.product_id === product_id);
     const { product_image, product_title, price, category, availability, description, specification, rating} = aProduct;
     const handleCart = id => {
@@ -18,7 +19,7 @@ const ProductDetails = () => {
     }
     return (
         <div className="relative pb-52">
-            <div className="bg-[#080708] md:pb-96 relative">
+            <div className="bg-[#9538E2] md:pb-96 relative">
                 <div className=" flex flex-col mx-auto text-center max-w-3xl gap-3 py-8">
                     <h1 className="text-white text-2xl font-semibold">Product Details</h1>
                     <p className="text-gray-100">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>

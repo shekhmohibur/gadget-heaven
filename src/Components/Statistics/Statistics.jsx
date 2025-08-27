@@ -3,7 +3,8 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContaine
 import { apiData } from '../Root/Root';
 const data = [{ name: 'Page A', uv: 400, pv: 2400, amt: 2400 },];
 const Statistics = () => {
-    const {products} = useContext(apiData);
+    const {ApiData} = useContext(apiData);
+    const {products} = ApiData;
     return (
         <div>
             <div className="bg-[#9538E2] py-10 flex flex-col items-center gap-5">

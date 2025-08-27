@@ -9,7 +9,8 @@ const Dashboard = () => {
     const [cartItems, setCartItems] = useState([]);
     const [wishlistItems, setWishListItems] = useState([]);
     const [cartPrice, setItemPrice] = useState(0);
-    const { products, newArrival } = useContext(apiData);
+    const {ApiData, setCartInfo, setWishListInfo} = useContext(apiData);
+    const {products, newArrival }= ApiData;
     const allProducts = [...products, ...newArrival]
     useEffect(() => {
         const storedIdCart = checkLsCart();
@@ -20,6 +21,8 @@ const Dashboard = () => {
         const storedIdWishlist = checkLsWishlist();
         const wishListItem = allProducts.filter(product => storedIdWishlist.includes(product.product_id));
         setWishListItems(wishListItem)
+        setCartInfo(storedIdCart.length)
+        setWishListInfo(storedIdWishlist.length)
     }, [])
 const removeCarts = () => {
   const modal = document.getElementById('my_modal_5');

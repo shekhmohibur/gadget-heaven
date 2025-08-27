@@ -2,7 +2,8 @@ import { useContext, useState } from "react";
 import Product from "../Product/Product";
 import { apiData } from "../Root/Root";
 const Products = () => {
-    const { products } = useContext(apiData);
+    const {ApiData} = useContext(apiData);
+    const { products } = ApiData;
     const [productByCate, setProductByCate] = useState([]);
     const [activeBtn, setActiveBtn] = useState('All Products')
     const categories = [

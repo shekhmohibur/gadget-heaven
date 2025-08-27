@@ -1,6 +1,8 @@
 import { Link, NavLink, useLocation } from "react-router";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
+import { useContext } from "react";
+import { apiData } from "../Root/Root";
 const Navbar = () => {
     const { link1, link2, link3, link4 } = {
         link1: 'Home',
@@ -8,6 +10,7 @@ const Navbar = () => {
         link3: 'Dashboard',
         link4: 'New Arrival'
     }
+    const {cartInfo, wishListInfo} = useContext(apiData)
     const location = useLocation();
     return (
         <>
@@ -40,10 +43,10 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end gap-3">
                     <button className="p-3 rounded-full text-xl bg-white text-purple-600 relative"><IoCartOutline />
-                        <span className={`w-7 h-7 flex  justify-center items-center absolute text-purple-600 rounded-full p-1 ${location.pathname === '/' ? 'bg-white -top-3 -right-3': '-top-2 -right-1'}`}></span>
+                        <span className={`w-7 h-7 flex  justify-center items-center absolute text-purple-600 rounded-full p-1 text-sm ${location.pathname === '/' ? 'bg-white -top-3 -right-3': '-top-2 -right-1'}`}>{cartInfo}</span>
                     </button>
                     <button className="p-3 rounded-full text-xl bg-white text-purple-600 relative"><CiHeart className="stroke-1" />
-                        <span className={`w-7 h-7 flex  justify-center items-center absolute text-purple-600 rounded-full p-1 ${location.pathname === '/' ? 'bg-white -top-3 -right-3': '-top-2 -right-1'}`}></span>
+                        <span className={`w-7 h-7 flex  justify-center items-center absolute text-purple-600 rounded-full p-1 text-sm ${location.pathname === '/' ? 'bg-white -top-3 -right-3': '-top-2 -right-1'}`}>{wishListInfo}</span>
                     </button>
                 </div>
             </div>
