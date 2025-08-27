@@ -4,15 +4,21 @@ import { apiData } from "../Root/Root";
 import { Rating } from "@mui/material";
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
+import { addToLocalStorageCart, addToLocalStorageWishlist } from "../../utility/localstorage";
 const ProductDetails = () => {
     const { product_id } = useParams();
     const { products = [], newArrival = [] } = useContext(apiData);
     const aProduct = [...products, ...newArrival]?.find(product => product.product_id === product_id);
     const { product_image, product_title, price, category, availability, description, specification, rating} = aProduct;
-    console.log(aProduct)
+    const handleCart = id => {
+        addToLocalStorageCart(id);
+    }
+    const handleWishlist = id => {
+        addToLocalStorageWishlist(id);
+    }
     return (
-        <div className="relative">
-            <div className="bg-[#9538E2] md:pb-96 relative">
+        <div className="relative pb-52">
+            <div className="bg-[#080708] md:pb-96 relative">
                 <div className=" flex flex-col mx-auto text-center max-w-3xl gap-3 py-8">
                     <h1 className="text-white text-2xl font-semibold">Product Details</h1>
                     <p className="text-gray-100">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
@@ -48,8 +54,8 @@ const ProductDetails = () => {
                                 </div> 
                             </div>
                             <div className="card-actions mt-4 items-center">
-                                <button className="btn bg-purple-600 text-white capitalize rounded-3xl hover:text-purple-600">Add To Cart <IoCartOutline className="text-2xl" /></button>
-                                <button className="p-2 bg-white border-2 border-gray-300 rounded-full text-3xl"><CiHeart /></button>
+                                <button onClick={() => handleCart(product_id)} className="btn bg-purple-600 text-white capitalize rounded-3xl hover:bg-white hover:text-purple-600">Add To Cart <IoCartOutline className="text-2xl" /></button>
+                                <button onClick={() => handleWishlist(product_id)} className="p-2 bg-white border-2 border-gray-300 rounded-full text-3xl"><CiHeart /></button>
                             </div>
                         </div>
                     </div> 
@@ -58,5 +64,4 @@ const ProductDetails = () => {
         </div>
     );
 };
-
-export default ProductDetails;
+export default  ProductDetails ;
